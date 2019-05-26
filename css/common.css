@@ -77,3 +77,10 @@ footer {
   display: block;
   clear: both;
 }
+
+/* On screens that are 980px or less, set the background color to blue */
+@media screen and (max-width: 980px) {
+  #main {
+    background-color: blue;
+  }
+}
