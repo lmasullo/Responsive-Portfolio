@@ -1,0 +1,23 @@
+img {
+  margin: 15px 20px 15px 20px;
+}
+
+/* Container holding the image and the text */
+.container {
+  float: left;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text on image */
+.centered {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4aaaa5;
+  width: 75%;
+  height: 15px;
+  padding: 10px;
+}

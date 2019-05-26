@@ -1,0 +1,19 @@
+label,
+input,
+textarea {
+  color: #777777;
+  margin: 10px 15px 10px 15px;
+  width: 930px;
+  height: 25px;
+}
+
+textarea {
+  height: 150px;
+}
+
+.submit {
+  background-color: #4aaaa5;
+  width: 80px;
+  height: 30px;
+  color: #ffffff;
+}
