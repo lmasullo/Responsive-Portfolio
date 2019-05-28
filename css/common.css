@@ -1,5 +1,5 @@
 body {
-  background-image: url("/../../images/dust_scratches.png");
+  background-image: url("/images/dust_scratches.png");
   min-height: 100%;
   /* Need this because reset.css removes Chromes default top border */
   margin-top: 20px;
