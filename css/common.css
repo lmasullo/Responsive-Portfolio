@@ -80,7 +80,56 @@ footer {
 
 /* On screens that are 980px or less, set the background color to blue */
 @media screen and (max-width: 980px) {
-  #main {
+  /* #main {
     background-color: blue;
+  } */
+
+  #wrapper {
+    width: 90%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #pict_me {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #name,
+  p {
+    font-size: 14px;
+  }
+
+  /* nav {
+    display: block;
+  } */
+
+  #name {
+    /* clear: both; */
+    display: inline;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 1px;
+    /* background-color: red; */
+  }
+
+  #links {
+    /* clear: both; */
+    /* display: inline; */
+    /* float: left; */
+    /* width: 100%; */
+    /* text-align: center; */
+  }
+
+  nav {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
   }
 }
