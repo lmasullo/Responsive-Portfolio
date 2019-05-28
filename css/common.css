@@ -1,4 +1,5 @@
 body {
+  /* ../ takes me up to the parent directory of the css file, so now i'm in the root of the page and can now move into images */
   background-image: url("../images/dust_scratches.png");
   /* Need to use repo name to make it work in git hub pages */
   /* background-image: url("/Responsive-Portfolio/images/dust_scratches.png"); */
@@ -90,12 +91,42 @@ footer {
     width: 90%;
     height: 100%;
   }
+
+  label,
+  input,
+  textarea {
+    width: 90%;
+    height: 100%;
+  }
+
+  #message {
+    width: 800px;
+    height: 125px;
+  }
+
+  #frmName,
+  #email {
+    width: 800px;
+  }
+
+
+
 }
 
 @media screen and (max-width: 768px) {
   #pict_me {
     width: 150px;
     height: 150px;
+  }
+
+  #message {
+    width: 500px;
+    height: 100px;
+  }
+
+  #frmName,
+  #email {
+    width: 500px;
   }
 }
 
@@ -106,33 +137,28 @@ footer {
     font-size: 14px;
   }
 
-  /* nav {
-    display: block;
-  } */
-
   #name {
-    /* clear: both; */
-    display: inline;
-    /* width: 100%; */
+    width: 96%;
     text-align: center;
     color: white;
     font-size: 24px;
-    /* margin-bottom: 1px; */
-    /* background-color: red; */
+    margin-bottom: 1px;
   }
 
   #links {
-    /* clear: both; */
-    /* display: inline; */
-    /* float: left; */
-    /* width: 100%; */
-    /* text-align: center; */
+    margin: auto;
+    width: 60%;
   }
 
-  nav {
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    width: 100%;
+  #message {
+    width: 400px;
+    height: 90px;
   }
+
+  #frmName,
+  #email {
+    width: 400px;
+  }
+
+
 }
