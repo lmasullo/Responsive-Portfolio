@@ -1,5 +1,5 @@
 body {
-  background-image: url("images/dust_scratches.png");
+  background-image: url("/images/dust_scratches.png");
   min-height: 100%;
   /* Need this because reset.css removes Chromes default top border */
   margin-top: 20px;
@@ -111,11 +111,11 @@ footer {
   #name {
     /* clear: both; */
     display: inline;
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     color: white;
     font-size: 24px;
-    margin-bottom: 1px;
+    /* margin-bottom: 1px; */
     /* background-color: red; */
   }
 
