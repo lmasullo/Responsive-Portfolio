@@ -1,8 +1,6 @@
 body {
   /* ../ takes me up to the parent directory of the css file, so now i'm in the root of the page and can now move into images */
   background-image: url("../images/dust_scratches.png");
-  /* Need to use repo name to make it work in git hub pages */
-  /* background-image: url("/Responsive-Portfolio/images/dust_scratches.png"); */
   min-height: 100%;
   /* Need this because reset.css removes Chromes default top border */
   margin-top: 20px;
@@ -75,6 +73,23 @@ footer {
   color: #ffffff;
 }
 
+/* The animation code */
+@keyframes example {
+  from {
+    background-color: #4aaaa5;
+  }
+
+  to {
+    background-color: yellow;
+  }
+}
+
+/* The element to apply the animation to */
+#name {
+  animation-name: example;
+  animation-duration: 1s;
+}
+
 .clearfix::after {
   content: "";
   display: block;
@@ -83,9 +98,6 @@ footer {
 
 /* On screens that are 980px or less, set the background color to blue */
 @media screen and (max-width: 980px) {
-  /* #main {
-    background-color: blue;
-  } */
 
   #wrapper {
     width: 90%;
@@ -108,9 +120,6 @@ footer {
   #email {
     width: 800px;
   }
-
-
-
 }
 
 @media screen and (max-width: 768px) {
@@ -159,6 +168,4 @@ footer {
   #email {
     width: 400px;
   }
-
-
 }
